@@ -8,9 +8,7 @@ public class FibonacciSequence {
 	private int indexOfConcreteElement;
 	private double evenCounter = 0;
 	private double oddCounter = 2;	
-	private BigInteger concreteElement;
-	
-	
+	private BigInteger concreteElement;	
 	
 	public FibonacciSequence(int sequenceLength, int indexOfConcreteElement) {
 		this.sequenceLength = sequenceLength;
@@ -18,8 +16,7 @@ public class FibonacciSequence {
 		System.out.println("\nElement of number " + 1 + " is: " + BigInteger.ONE);  // Printing the two first elements of the sequence
 		System.out.println("Element of number " + 2 + " is: " + BigInteger.ONE);	// 1 and 1 in this case
 		sequencePrint(BigInteger.ONE, BigInteger.ONE);								// Passing the two first elements into the method
-	}
-	
+	}	
 	
 	private void sequencePrint(BigInteger x, BigInteger y) {
 		BigInteger z = x.add(y);													// Calculation of the next number in the sequence

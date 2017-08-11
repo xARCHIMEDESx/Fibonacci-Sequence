@@ -1,7 +1,6 @@
 package com.epam.bigdata.fibonacci;
 import java.util.InputMismatchException;
 
-
 public class FibonacciSequenceTestDrive {
 	
 	public static void main (String[] args) {
@@ -21,8 +20,7 @@ public class FibonacciSequenceTestDrive {
 			}							
 				
 			new FibonacciSequence(length, elem);
-		}
-							
+		}						
 			
 		catch(IllegalArgumentException ex) {
 			System.out.println(ex.getMessage());
